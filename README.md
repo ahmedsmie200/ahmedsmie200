@@ -9,7 +9,7 @@
   <br />
 
   <!-- Banner Illustration -->
-  <img src="https://raw.githubusercontent.com/ahmedsmie200/ahmedsmie200/main/assets/banner.svg" width="100%" alt="Frontend Developer Banner" />
+  <img src="https://raw.githubusercontent.com/ahmedsmie200/ahmedsmie200/main/assets/banner.svg?v=2" width="100%" alt="Frontend Developer Banner" />
 
   <br />
 
