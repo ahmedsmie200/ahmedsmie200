@@ -16,11 +16,11 @@
   <!-- Quick Action Pill Buttons -->
   <p align="center">
     <a href="https://portfolio-silk-ten-20.vercel.app/Ahmed_Abdel-Salam_Abdullah_CV.pdf" target="_blank">
-      <img src="https://img.shields.io/badge/📄_MY_CV-00f3ff?style=for-the-badge&logoColor=black&labelColor=0d1117" alt="My CV" />
+      <img src="https://img.shields.io/badge/📄_MY_CV-2563eb?style=for-the-badge&logoColor=white" alt="My CV" />
     </a>
     &nbsp;&nbsp;
     <a href="https://portfolio-silk-ten-20.vercel.app" target="_blank">
-      <img src="https://img.shields.io/badge/🌐_MY_PORTFOLIO-bc13fe?style=for-the-badge&logoColor=white&labelColor=0d1117" alt="My Portfolio" />
+      <img src="https://img.shields.io/badge/🌐_MY_PORTFOLIO-bc13fe?style=for-the-badge&logoColor=white" alt="My Portfolio" />
     </a>
   </p>
 
