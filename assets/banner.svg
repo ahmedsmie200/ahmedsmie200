@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0a0f1d"/>
+      <stop offset="100%" stop-color="#120b22"/>
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#bc13fe" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff"/>
+      <stop offset="50%" stop-color="#d8b4fe"/>
+      <stop offset="100%" stop-color="#bc13fe"/>
+    </linearGradient>
+
+    <!-- Accent Glows -->
+    <radialGradient id="cyanGlow" cx="15%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="purpleGlow" cx="85%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#bc13fe" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#bc13fe" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Dot Grid Pattern -->
+    <pattern id="dotGrid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+    }
+    .mono-text {
+      font-family: 'SF Mono', Monaco, 'Cascadia Code', 'Consolas', 'Courier New', monospace;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="1196" height="356" rx="20" fill="url(#bgGrad)" />
+  <rect x="2" y="2" width="1196" height="356" rx="20" fill="url(#dotGrid)" />
+
+  <!-- Ambient Glow Orbs -->
+  <rect x="2" y="2" width="1196" height="356" rx="20" fill="url(#cyanGlow)" />
+  <rect x="2" y="2" width="1196" height="356" rx="20" fill="url(#purpleGlow)" />
+
+  <!-- Border -->
+  <rect x="2" y="2" width="1196" height="356" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="2" />
+
+  <!-- Window Header Bar -->
+  <g transform="translate(40, 32)">
+    <circle cx="10" cy="10" r="6" fill="#ff5f56" />
+    <circle cx="30" cy="10" r="6" fill="#ffbd2e" />
+    <circle cx="50" cy="10" r="6" fill="#27c93f" />
+
+    <!-- Terminal Status / Breadcrumb -->
+    <rect x="80" y="0" width="310" height="22" rx="11" fill="#ffffff" fill-opacity="0.05" />
+    <text x="96" y="15" fill="#00f3ff" class="mono-text" font-size="11" font-weight="600">⚡ ahmed@portfolio: ~/frontend-stack</text>
+  </g>
+
+  <!-- Watermark Tech Graphic (Right Side) -->
+  <g transform="translate(860, 60)" opacity="0.12">
+    <!-- Code Brackets & Shield Geometric Design -->
+    <path d="M 120 40 L 40 120 L 120 200" fill="none" stroke="#00f3ff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 180 40 L 260 120 L 180 200" fill="none" stroke="#bc13fe" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="165" y1="30" x2="135" y2="210" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- Main Content (Left Side) -->
+  <g transform="translate(56, 115)">
+    <!-- Small Category Kicker -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="190" height="26" rx="6" fill="#00f3ff" fill-opacity="0.12" stroke="#00f3ff" stroke-opacity="0.4" stroke-width="1"/>
+      <text x="14" y="17" fill="#00f3ff" class="mono-text" font-size="12" font-weight="700" letter-spacing="1.5">FRONTEND ENGINEER</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="72" fill="url(#titleGrad)" class="title-text" font-size="44">Ahmed Abdel-Salam</text>
+
+    <!-- Subtitle / Mission Statement -->
+    <text x="0" y="112" fill="#94a3b8" class="title-text" font-size="19" font-weight="400">
+      Crafting responsive, high-performance &amp; accessible web experiences with Next.js &amp; TypeScript.
+    </text>
+
+    <!-- Interactive Pill Highlights -->
+    <g transform="translate(0, 150)">
+      <!-- Next.js Badge -->
+      <rect x="0" y="0" width="140" height="34" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      <circle cx="18" cy="17" r="4" fill="#00f3ff"/>
+      <text x="32" y="22" fill="#ffffff" class="badge-text">Next.js App Router</text>
+
+      <!-- TypeScript Badge -->
+      <rect x="152" y="0" width="112" height="34" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      <circle cx="170" cy="17" r="4" fill="#3178c6"/>
+      <text x="184" y="22" fill="#ffffff" class="badge-text">TypeScript</text>
+
+      <!-- Tailwind CSS Badge -->
+      <rect x="276" y="0" width="124" height="34" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      <circle cx="294" cy="17" r="4" fill="#38bdf8"/>
+      <text x="308" y="22" fill="#ffffff" class="badge-text">Tailwind CSS</text>
+
+      <!-- Framer Motion Badge -->
+      <rect x="412" y="0" width="138" height="34" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      <circle cx="430" cy="17" r="4" fill="#bc13fe"/>
+      <text x="444" y="22" fill="#ffffff" class="badge-text">Framer Motion</text>
+
+      <!-- Production Ready Badge -->
+      <rect x="562" y="0" width="130" height="34" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1"/>
+      <circle cx="580" cy="17" r="4" fill="#10b981"/>
+      <text x="594" y="22" fill="#ffffff" class="badge-text">Production Web</text>
+    </g>
+  </g>
+</svg>

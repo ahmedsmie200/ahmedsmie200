@@ -9,7 +9,7 @@
   <br />
 
   <!-- Banner Illustration -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f3ff,100:bc13fe&height=200&section=header&text=Building%20Responsive%20%26%20Production-Grade%20Web%20Apps&fontSize=22&fontColor=ffffff&fontAlignY=38&desc=Specialized%20in%20Next.js%20(App%20Router),%20TypeScript,%20%26%20Tailwind%20CSS&descFontSize=13&descAlignY=58" width="100%" alt="Header Banner" />
+  <img src="https://raw.githubusercontent.com/ahmedsmie200/ahmedsmie200/main/assets/banner.svg" width="100%" alt="Frontend Developer Banner" />
 
   <br />
 
